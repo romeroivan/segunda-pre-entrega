@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    background-color: black;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+header {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    background-color: rgb(235, 238, 42);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+/*
+.nav img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+*/
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+}
+
+.nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 25px 10px;
+}
+
+.nav a:hover {
+    background-color: rgb(190, 192, 79);
+}
+
+.nav li {
+    padding: 0 10px;
+}
+
+main {
+    margin-top: 60px;
+}
+
+.carrusel img{
+    max-width: 100%;
+    height: 45rem;
+}
+
+.letra{
+    color: black;
+}
+
+.acordeon {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 5px 5px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "acordeon1 acordeon2 acordeon3 acordeon4";
+  }
+  
+  .acordeon1 { grid-area: acordeon1; }
+  
+  .acordeon2 { grid-area: acordeon2; }
+  
+  .acordeon3 { grid-area: acordeon3; }
+  
+  .acordeon4 { grid-area: acordeon4; }
+
+
+  .accordion-button{
+    background-color: yellow;
+}
+
+.accordion-body{
+    background-color: yellow;
+    height: 630px;
+}
+
+.accordion-item .accordion-button{
+    background-color: yellow;
+    
+}
+
+.accordion-item .accordion-button:hover{
+    background-color: rgb(221, 221, 104);
+}
+
+.index-entrenamiento{
+    display: flex;
+    justify-content: space-between;
+}
+
+.index-entrenamiento article{
+    background-color: yellow;
+    width: 25%;
+    margin: 3px;
+}
+
+.index-entrenamiento p{
+    color: black;
+}
+
+.index-entrenadores {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-rows: 1fr;
+    gap: 5px 5px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "index-entrenadores1 index-entrenadores2 index-entrenadores3 index-entrenadores3"
+      "index-entrenadores4 index-entrenadores4 index-entrenadores5 index-entrenadores6";
+  }
+  
+  .index-entrenadores1 { grid-area: index-entrenadores1; }
+  
+  .index-entrenadores2 { grid-area: index-entrenadores2; }
+  
+  .index-entrenadores3 { grid-area: index-entrenadores3; }
+  
+  .index-entrenadores4 { grid-area: index-entrenadores4; }
+  
+  .index-entrenadores5 { grid-area: index-entrenadores5; }
+  
+  .index-entrenadores6 { grid-area: index-entrenadores6; }
+
+
+  .index-entrenadores1{
+    background-color: yellow;
+}
+
+.index-entrenadores1 p{
+    color: black;
+}
+
+.index-entrenadores2{
+    background-color: yellow;
+}
+
+.index-entrenadores2 p{
+    color: black;
+}
+
+.index-entrenadores3{
+    background-color: yellow;
+}
+
+.index-entrenadores3 p{
+    color: black;
+}
+
+.index-entrenadores4{
+    background-color: yellow;
+}
+
+.index-entrenadores4 p{
+    color: black;
+}
+
+.index-entrenadores5{
+    background-color: yellow;
+}
+
+.index-entrenadores5 p{
+    color: black;
+}
+
+.index-entrenadores6{
+    background-color: yellow;
+}
+
+.index-entrenadores6 p{
+    color: black;
+}
+
+.index-precios{
+    display: flex;
+    justify-content: space-around;
+}
+
+.index-precios1{
+    background-color: yellow;
+    width: 50%;
+    margin: 3px;
+}
+
+.index-precios1 p{
+    color: black;
+}
+
+.index-precios2{
+    background-color: yellow;
+    width: 50%;
+    margin: 3px;
+}
+
+.index-precios2 p{
+    color: black;
+}
+
+
+.index-horarios{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.index-horarios1{
+    background-color: yellow;
+    height: 40px;
+    width: 27%;
+    margin: 3px;
+}
+
+.index-horarios1 p{
+    color: black;
+}
+
+.index-horarios2{
+    background-color: yellow;
+    height: 40px;
+    width: 27%;
+    margin: 3px;
+}
+
+.index-horarios2 p{
+    color: black;
+}
+
+.contacto-general{
+    display: flex;
+    justify-content: space-around;
+}
+
+.inf-contactos{
+    width: 25%;
+    background-color: yellow;
+    margin: 3px;   
+}
+
+.inf-contactos h2{
+    color: black;
+}
+
+.inf-contactos p{
+    color: black;
+}
+
+.contacto form input {
+    color: black;
+    height: 40px;
+    width: 415px;
+    margin: 3px;
+}
+/*
+.contacto{
+    background-color: yellow;
+}
+
+.contacto label{
+    color: black;
+}
+*/
+
+.contacto form textarea{
+    color: black;
+    width: 415px;
+    margin: 3px;
+}
+
+.pie-de-pagina a{
+    text-decoration: none;   
+    color: white;
+}
+
+.pie-de-pagina ul{
+    list-style: none;
+}
