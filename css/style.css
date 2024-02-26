@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    border: 0;
+    border: 0; 
     font-size: 100%;
     vertical-align: baseline;
     color: rgb(255, 255, 255);
@@ -66,7 +66,7 @@ main {
 
 .carrusel img{
     max-width: 100%;
-    height: 45rem;
+    height: 45rem; 
 }
 
 .letra{
@@ -97,7 +97,7 @@ main {
 
 .accordion-body{
     background-color: yellow;
-    height: 630px;
+    height: 315px;
 }
 
 .accordion-item .accordion-button{
@@ -112,6 +112,31 @@ main {
 .index-entrenamiento{
     display: flex;
     justify-content: space-between;
+
+}    
+.entrenamiento-pesas{
+    background-image: url(../imagenes/hombre-levantando-pesas.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.entrenamiento-boxeo{
+    background-image: url(../imagenes/boxeo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.entrenamiento-crossfit{
+    background-image: url(../imagenes/crossfit.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.entrenamiento-calistenia{
+    background-image: url(../imagenes/ejercicios-de-calistenia.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .index-entrenamiento article{
@@ -120,8 +145,8 @@ main {
     margin: 3px;
 }
 
-.index-entrenamiento p{
-    color: black;
+.index-entrenamiento h5{
+    color: rgb(0, 0, 0);
 }
 
 .index-entrenadores {  display: grid;
@@ -150,6 +175,10 @@ main {
 
   .index-entrenadores1{
     background-color: yellow;
+    background-image: url(../imagenes/entrenador1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 315px;
 }
 
 .index-entrenadores1 p{
@@ -158,6 +187,10 @@ main {
 
 .index-entrenadores2{
     background-color: yellow;
+    background-image: url(../imagenes/entrenador2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 315px;
 }
 
 .index-entrenadores2 p{
@@ -166,6 +199,10 @@ main {
 
 .index-entrenadores3{
     background-color: yellow;
+    background-image: url(../imagenes/entrenador3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 315px;
 }
 
 .index-entrenadores3 p{
@@ -174,6 +211,10 @@ main {
 
 .index-entrenadores4{
     background-color: yellow;
+    background-image: url(../imagenes/entrenadora6.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 315px;
 }
 
 .index-entrenadores4 p{
@@ -182,6 +223,10 @@ main {
 
 .index-entrenadores5{
     background-color: yellow;
+    background-image: url(../imagenes/entrenador5.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 315px;
 }
 
 .index-entrenadores5 p{
@@ -190,6 +235,10 @@ main {
 
 .index-entrenadores6{
     background-color: yellow;
+    background-image: url(../imagenes/entrenadora6.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 315px;
 }
 
 .index-entrenadores6 p{
