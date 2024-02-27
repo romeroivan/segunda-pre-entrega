@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    border: 0; 
+    border: 0;
     font-size: 100%;
     vertical-align: baseline;
     color: rgb(255, 255, 255);
@@ -32,6 +32,7 @@ header {
     top: 0;
     z-index: 1000;
 }
+
 /*
 .nav img {
     width: 50px;
@@ -64,257 +65,517 @@ main {
     margin-top: 60px;
 }
 
-.carrusel img{
+.carrusel img {
     max-width: 100%;
-    height: 45rem; 
+    height: 45rem;
 }
 
-.letra{
+.letra {
     color: black;
 }
 
-.acordeon {  display: grid;
+.acordeon {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     gap: 5px 5px;
     grid-auto-flow: row;
     grid-template-areas:
-      "acordeon1 acordeon2 acordeon3 acordeon4";
-  }
-  
-  .acordeon1 { grid-area: acordeon1; }
-  
-  .acordeon2 { grid-area: acordeon2; }
-  
-  .acordeon3 { grid-area: acordeon3; }
-  
-  .acordeon4 { grid-area: acordeon4; }
+        "acordeon1 acordeon2 acordeon3 acordeon4";
+}
+
+.acordeon1 {
+    grid-area: acordeon1;
+}
+
+.acordeon2 {
+    grid-area: acordeon2;
+}
+
+.acordeon3 {
+    grid-area: acordeon3;
+}
+
+.acordeon4 {
+    grid-area: acordeon4;
+}
 
 
-  .accordion-button{
+.accordion-button {
     background-color: yellow;
 }
 
-.accordion-body{
+.accordion-body {
     background-color: yellow;
-    height: 315px;
+    height: auto
 }
 
-.accordion-item .accordion-button{
+.accordion-item .accordion-button {
     background-color: yellow;
-    
 }
 
-.accordion-item .accordion-button:hover{
+.accordion-item .accordion-button:hover {
     background-color: rgb(221, 221, 104);
 }
 
-.index-entrenamiento{
+.index-entrenamiento {
     display: flex;
     justify-content: space-between;
 
-}    
-.entrenamiento-pesas{
+}
+
+.entrenamiento-imagenes {
+    display: flex;
+}
+
+.entrenamiento-pesas {
     background-image: url(../imagenes/hombre-levantando-pesas.jpg);
     background-size: cover;
     background-position: center;
     height: 250px;
+
 }
 
-.entrenamiento-boxeo{
+.entrenamiento-pesas1 {
+    background-image: url(../imagenes/hombre-levantando-pesas.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 25%;
+    margin: 5px;
+}
+
+.entrenamiento-boxeo {
     background-image: url(../imagenes/boxeo.jpg);
     background-size: cover;
     background-position: center;
 }
 
-.entrenamiento-crossfit{
+.entrenamiento-boxeo1 {
+    background-image: url(../imagenes/boxeo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 25%;
+    margin: 5px;
+}
+
+.entrenamiento-crossfit {
     background-image: url(../imagenes/crossfit.jpg);
     background-size: cover;
     background-position: center;
 }
 
-.entrenamiento-calistenia{
+.entrenamiento-crossfit1 {
+    background-image: url(../imagenes/crossfit.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 25%;
+    margin: 5px;
+}
+
+.entrenamiento-calistenia {
     background-image: url(../imagenes/ejercicios-de-calistenia.jpg);
     background-size: cover;
     background-position: center;
 }
 
-.index-entrenamiento article{
+.entrenamiento-calistenia1 {
+    background-image: url(../imagenes/ejercicios-de-calistenia.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 25%;
+    margin: 5px;
+}
+
+
+.index-entrenamiento article {
     background-color: yellow;
     width: 25%;
     margin: 3px;
 }
 
-.index-entrenamiento h5{
+.index-entrenamiento h5 {
     color: rgb(0, 0, 0);
 }
 
-.index-entrenadores {  display: grid;
+.index-entrenadores {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-auto-rows: 1fr;
-    gap: 5px 5px;
+    gap: 20px 20px;
     grid-auto-flow: row;
     grid-template-areas:
-      "index-entrenadores1 index-entrenadores2 index-entrenadores3 index-entrenadores3"
-      "index-entrenadores4 index-entrenadores4 index-entrenadores5 index-entrenadores6";
-  }
-  
-  .index-entrenadores1 { grid-area: index-entrenadores1; }
-  
-  .index-entrenadores2 { grid-area: index-entrenadores2; }
-  
-  .index-entrenadores3 { grid-area: index-entrenadores3; }
-  
-  .index-entrenadores4 { grid-area: index-entrenadores4; }
-  
-  .index-entrenadores5 { grid-area: index-entrenadores5; }
-  
-  .index-entrenadores6 { grid-area: index-entrenadores6; }
+        "index-entrenadores1 index-entrenadores2 index-entrenadores3 index-entrenadores3"
+        "index-entrenadores4 index-entrenadores4 index-entrenadores5 index-entrenadores6";
+}
+
+.index-entrenadores1 {
+    grid-area: index-entrenadores1;
+}
+
+.index-entrenadores2 {
+    grid-area: index-entrenadores2;
+}
+
+.index-entrenadores3 {
+    grid-area: index-entrenadores3;
+}
+
+.index-entrenadores4 {
+    grid-area: index-entrenadores4;
+}
+
+.index-entrenadores5 {
+    grid-area: index-entrenadores5;
+}
+
+.index-entrenadores6 {
+    grid-area: index-entrenadores6;
+}
 
 
-  .index-entrenadores1{
+
+.index-entrenadores1 {
     background-color: yellow;
-    background-image: url(../imagenes/entrenador1.jpg);
+    /* background-image: url(../imagenes/entrenador1.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center;*/
     height: 315px;
 }
 
-.index-entrenadores1 p{
+.index-entrenadores1 img {
+    width: 100%;
+    height: 230px;
+}
+
+.index-entrenadores1 p {
+    background-color: rgba(255, 255, 0, 0.349);
     color: black;
 }
 
-.index-entrenadores2{
+.index-entrenadores1 h3 {
+    background-color: rgba(255, 255, 0, 0.349);
+    color: black;
+}
+
+.index-entrenadores1 h5 {
+    color: black;
+}
+
+.index-entrenadores2 {
     background-color: yellow;
-    background-image: url(../imagenes/entrenador2.jpg);
+    /* background-image: url(../imagenes/entrenador2.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center;*/
     height: 315px;
 }
 
-.index-entrenadores2 p{
+.index-entrenadores2 img {
+    max-width: 100%;
+    width: 100%;
+    height: 230px;
+
+}
+
+.index-entrenadores2 p {
+    background-color: rgba(255, 255, 0, 0.349);
     color: black;
 }
 
-.index-entrenadores3{
+.index-entrenadores2 h3 {
+    background-color: rgba(255, 255, 0, 0.349);
+    color: black;
+}
+
+.index-entrenadores2 h5 {
+    color: black;
+}
+
+.index-entrenadores3 {
     background-color: yellow;
-    background-image: url(../imagenes/entrenador3.jpg);
+    /* background-image: url(../imagenes/entrenador3.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center;*/
     height: 315px;
 }
 
-.index-entrenadores3 p{
+.index-entrenadores3 img {
+    width: 100%;
+    height: 245px;
+}
+
+.index-entrenadores3 p {
+    background-color: rgba(255, 255, 0, 0.349);
     color: black;
 }
 
-.index-entrenadores4{
+.index-entrenadores3 h3 {
+    background-color: rgba(255, 255, 0, 0.349);
+    color: black;
+}
+
+.index-entrenadores3 h5 {
+    color: black;
+}
+
+.index-entrenadores4 {
     background-color: yellow;
-    background-image: url(../imagenes/entrenadora6.jpg);
+    /* background-image: url(../imagenes/entrenadora4.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center;*/
     height: 315px;
 }
 
-.index-entrenadores4 p{
+.index-entrenadores4 img {
+    width: 100%;
+    height: 265px;
+}
+
+.index-entrenadores4 p {
+    background-color: rgba(255, 255, 0, 0.349);
     color: black;
 }
 
-.index-entrenadores5{
+.index-entrenadores4 h3 {
+    background-color: rgba(255, 255, 0, 0.349);
+    color: black;
+}
+
+.index-entrenadores4 h5 {
+    color: black;
+}
+
+.index-entrenadores5 {
     background-color: yellow;
-    background-image: url(../imagenes/entrenador5.jpg);
+    /* background-image: url(../imagenes/entrenador5.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center;*/
     height: 315px;
 }
 
-.index-entrenadores5 p{
+.index-entrenadores5 img {
+    width: 100%;
+    height: 210px;
+}
+
+.index-entrenadores5 p {
+    background-color: rgba(255, 255, 0, 0.349);
     color: black;
 }
 
-.index-entrenadores6{
+.index-entrenadores5 h3 {
+    background-color: rgba(255, 255, 0, 0.349);
+    color: black;
+}
+
+.index-entrenadores5 h5 {
+    color: black;
+}
+
+.index-entrenadores6 {
     background-color: yellow;
-    background-image: url(../imagenes/entrenadora6.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 315px;
+    /*  background-image: url(../imagenes/entrenadora6.jpg);
+*/
+    height: 315px
 }
 
-.index-entrenadores6 p{
+.index-entrenadores6 img {
+    width: 100%;
+    height: 230px;
+}
+
+.index-entrenadores6 p {
+    background-color: rgba(255, 255, 0, 0.349);
     color: black;
 }
 
-.index-precios{
+.index-entrenadores6 h3 {
+    background-color: rgba(255, 255, 0, 0.349);
+    color: black;
+}
+
+.index-entrenadores6 h5 {
+    color: black;
+}
+
+
+.img-precios {
+    background-image: url(../imagenes/reloj-compu.jpg);
+    height: 156px;
+    width: 100%;
+    background-size: cover;
+    background-position: 30% 30%;
+}
+
+.index-precios {
     display: flex;
     justify-content: space-around;
+    height: 156px;
 }
 
-.index-precios1{
+.index-precios1 {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: center;
     background-color: yellow;
     width: 50%;
     margin: 3px;
 }
 
-.index-precios1 p{
+.index-precios-1 {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: center;
+    background-color: yellow;
+    width: 50%;
+    height: 250px;
+    margin: 3px;
+}
+
+.index-precios1 h4 {
     color: black;
 }
 
-.index-precios2{
+.index-precios-1 h3 {
+    color: black;
+}
+
+
+.index-precios-1 p {
+    color: black;
+}
+
+.index-precios2 {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: center;
     background-color: yellow;
     width: 50%;
     margin: 3px;
 }
 
-.index-precios2 p{
+
+.index-precios-2 {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: center;
+    background-color: yellow;
+    width: 50%;
+    height: 250px;
+    margin: 3px;
+}
+
+.index-precios2 h4 {
+    color: black;
+}
+
+.index-precios-2 h3 {
     color: black;
 }
 
 
-.index-horarios{
-    display: flex; 
+.index-precios-2 p {
+    color: black;
+}
+
+
+.index-horarios {
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.index-horarios1{
-    background-color: yellow;
-    height: 40px;
-    width: 27%;
-    margin: 3px;
-}
-
-.index-horarios1 p{
-    color: black;
-}
-
-.index-horarios2{
-    background-color: yellow;
-    height: 40px;
-    width: 27%;
-    margin: 3px;
-}
-
-.index-horarios2 p{
-    color: black;
-}
-
-.contacto-general{
+.index-horarios1 {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
+    background-color: yellow;
+    height: 85px;
+    width: 27%;
+    margin: 3px;
 }
 
-.inf-contactos{
+.index-horarios1 p {
+    color: black;
+    margin-top: 5px;
+
+
+}
+
+.index-horarios2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: yellow;
+    height: 400px;
+    width: 50%;
+    margin: 3px;
+}
+
+.index-horarios2 h3 {
+    color: black;
+}
+
+.index-horarios2 p {
+    color: black;
+}
+
+
+/**/
+
+.index-horarios- {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.index-horarios2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: yellow;
+    height: 400px;
+    width: 50%;
+    margin: 3px;
+}
+
+.index-horarios2 h3 {
+    color: black;
+}
+
+.index-horarios2 p {
+    color: black;
+}
+
+/**/
+
+
+
+
+.contacto-general {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inf-contactos {
     width: 25%;
     background-color: yellow;
-    margin: 3px;   
+    margin: 3px;
 }
 
-.inf-contactos h2{
+.inf-contactos h2 {
     color: black;
 }
 
-.inf-contactos p{
+.inf-contactos p {
     color: black;
 }
 
@@ -324,6 +585,7 @@ main {
     width: 415px;
     margin: 3px;
 }
+
 /*
 .contacto{
     background-color: yellow;
@@ -334,17 +596,283 @@ main {
 }
 */
 
-.contacto form textarea{
+.contacto form textarea {
     color: black;
     width: 415px;
     margin: 3px;
 }
 
-.pie-de-pagina a{
-    text-decoration: none;   
+.pie-de-pagina a {
+    text-decoration: none;
     color: white;
 }
 
-.pie-de-pagina ul{
+.pie-de-pagina ul {
     list-style: none;
+}
+
+.pie-de-pagina-precios {
+    margin: 300px;
+}
+
+@media (max-width: 560px) {
+    .inf-contactos {
+        width: 100%;
+        height: 150px;
+        background-color: yellow;
+        margin: 3px;
+    }
+
+    .contacto-general {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .nav {
+        display: flex;
+        height: 135px;
+        justify-content: space-around;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        background-color: rgb(255, 0, 0);
+    }
+
+    .nav ul {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .nav ul li a {
+        color: yellow;
+    }
+
+    .index-entrenadores1 {
+        background-color: red;
+    }
+
+    .index-entrenadores1 h5 {
+        color: yellow;
+    }
+
+    .index-entrenadores2 {
+        background-color: red;
+    }
+
+    .index-entrenadores2 h5 {
+        color: yellow;
+    }
+
+    .index-entrenadores3 {
+        background-color: red;
+    }
+
+    .index-entrenadores3 h5 {
+        color: yellow;
+    }
+
+    .index-entrenadores4 {
+        background-color: red;
+    }
+
+    .index-entrenadores4 h5 {
+        color: yellow;
+    }
+
+    .index-entrenadores5 {
+        background-color: red;
+    }
+
+    .index-entrenadores5 h5 {
+        color: yellow;
+    }
+
+    .index-entrenadores6 {
+        background-color: red;
+    }
+
+    .index-entrenadores6 h5 {
+        color: yellow;
+    }
+
+    .index-precios1 {
+        background-color: red;
+    }
+
+    .index-precios1 h4 {
+        color: yellow;
+    }
+
+    .index-precios2 {
+        background-color: red;
+    }
+
+    .index-precios2 h4 {
+        color: yellow;
+    }
+
+    .index-horarios1 {
+        background-color: red;
+        width: 250px;
+        height: 150px;
+    }
+
+    .index-horarios1 p {
+        color: yellow;
+    }
+
+    .inf-contactos {
+        background-color: red;
+    }
+
+    .inf-contactos h2 {
+        color: yellow;
+    }
+
+    .inf-contactos p {
+        color: yellow;
+    }
+}
+
+@media (max-width: 600px) {
+    .acordeon {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-auto-rows: 1fr;
+        gap: 5px 5px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "acordeon1 acordeon2"
+            "acordeon3 acordeon4";
+    }
+
+    .acordeon1 {
+        grid-area: acordeon1;
+    }
+
+    .acordeon2 {
+        grid-area: acordeon2;
+    }
+
+    .acordeon3 {
+        grid-area: acordeon3;
+    }
+
+    .acordeon4 {
+        grid-area: acordeon4;
+    }
+
+
+    .entrenamiento-imagenes {
+        display: none;
+    }
+
+    .accordion-item .accordion-button {
+        background-color: red;
+    }
+
+    .accordion-item .accordion-button:hover {
+        background-color: rgb(231, 71, 71);
+    }
+
+    .accordion-body {
+        background-color: red;
+    }
+
+
+    .accordion-item .accordion-button h3 {
+        color: yellow;
+    }
+
+    .accordion-body p {
+        color: yellow;
+    }
+
+
+    .nav {
+        display: flex;
+        height: 135px;
+        justify-content: space-around;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        background-color: rgb(255, 0, 0);
+    }
+
+    .nav ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nav ul li a {
+        color: yellow;
+        padding: 0 0;
+    }
+
+    .logo a{
+        color: yellow;
+    }
+
+}
+
+@media (max-width: 980px) {
+    .index-precios {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 70px;
+    }
+
+    .index-precios-1 {
+        width: 100%;
+        height: 500px;
+        background-color: red;
+    }
+
+    .index-precios-1 h3 {
+        color: yellow;
+    }
+
+    .index-precios-1 p {
+        color: yellow;
+    }
+
+    .index-precios-2 {
+        width: 100%;
+        height: 500px;
+        background-color: red;
+    }
+
+    .index-precios-2 h3 {
+        color: yellow;
+    }
+
+    .index-precios-2 p {
+        color: yellow;
+    }
+
+    .img-precios {
+        margin: auto;
+    }
+
+}
+
+@media (max-width: 835px) {
+    .index-horarios2 {
+        width: 100%;
+    }
+
+    .index-horarios2 {
+        background-color: red;
+    }
+
+    .index-horarios2 h3 {
+        color: yellow;
+    }
+
+    .index-horarios2 p {
+        color: yellow;
+    }
 }
