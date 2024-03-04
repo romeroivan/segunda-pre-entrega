@@ -12,8 +12,6 @@
 
 <body>
 
-
-
     <nav class="nav">
         <div class="logo">
             <a href="./index.html"><img src="./imagenes/logo.jpg" alt="logo"></a>
@@ -27,10 +25,7 @@
                 <li><a href="./pages/horarios.html">horarios</a></li>
             </ul>
         </div>
-
     </nav>
-
-
 
     <main>
 
@@ -79,43 +74,42 @@
             </button>
         </div>
 
-
-        <header>
-            <h1>informacion sobre nuestro gym</h1>
-        </header>
-
-
         <!--  entrenamientos  -->
         <div class="menu">
             <div>
-                <article>
-                    <h2>algunos de nuestros entrenamientos</h2>
-                </article>
+                <section>
+                    <article class="titulo">
+                        <h2>algunos de nuestros entrenamientos</h2>
+                    </article>
+                </section>
+
 
                 <section class="index-entrenamiento">
 
                     <article class="entrenamiento-pesas">
                         <h5>pesas</h5>
                         <div>
-                            <img src="./imagenes/hombre-levantando-pesas.jpg" alt="hombre levantando pesas">
+                            <img src="./imagenes/hombre-levantando-pesas.jpg" alt="hombre levantando pesas"
+                                class="borde">
                         </div>
                     </article>
                     <article class="entrenamiento-boxeo">
                         <h5>boxeo</h5>
                         <div>
-                            <img src="./imagenes/boxeo.jpg" alt="hombres entrenando boxeo">
+                            <img src="./imagenes/boxeo.jpg" alt="hombres entrenando boxeo" class="borde">
                         </div>
                     </article>
                     <article class="entrenamiento-crossfit">
                         <h5>crossfit</h5>
                         <div>
-                            <img src="./imagenes/crossfit.jpg" alt="hombre y mujer haciendo crossfit">
+                            <img src="./imagenes/crossfit.jpg" alt="hombre y mujer haciendo crossfit" class="borde">
                         </div>
                     </article>
                     <article class="entrenamiento-calistenia">
                         <h5>calistenia</h5>
                         <div>
-                            <img src="./imagenes/ejercicios-de-calistenia.jpg" alt="hombre haciendo calistenia">
+                            <img src="./imagenes/ejercicios-de-calistenia.jpg" alt="hombre haciendo calistenia"
+                                class="borde">
                         </div>
                     </article>
 
@@ -125,9 +119,12 @@
             <!--  entrenadores  -->
 
             <div>
-                <article>
-                    <h2>6 entrenadores para todos los tipos de entrenamientos</h2>
-                </article>
+                <section>
+                    <article class="titulo">
+                        <h2>6 entrenadores para todos los tipos de entrenamientos</h2>
+                    </article>
+                </section>
+
 
                 <section class="index-entrenadores">
 
@@ -164,14 +161,14 @@
                         <div class="entrenadores-imagenes">
                             <img src="./imagenes/entrenador5.jpg" alt="entrenador juan">
                         </div>
-                        
+
                     </article>
                     <article class="index-entrenadores6">
                         <h5>karen</h5>
                         <div class="entrenadores-imagenes">
-                           <img src="./imagenes/entrenadora6.jpg" alt="entrenadora karen"> 
+                            <img src="./imagenes/entrenadora6.jpg" alt="entrenadora karen">
                         </div>
-                        
+
                     </article>
 
                 </section>
@@ -180,11 +177,14 @@
             <!--  precios  -->
 
             <div>
-                <article>
-                    <h2>precios accesibles para todos</h2>
-                </article>
+                <section>
+                    <article class="titulo">
+                        <h2>precios accesibles para todos</h2>
+                    </article>
+                </section>
 
-                <section class="img-precios">
+
+                <section class="img-precios borde">
                     <!--    <article>
                         <img src="./imagenes/reloj.jpg" alt="">
                     </article>-->
@@ -192,10 +192,10 @@
 
                 <section class="precios">
 
-                    <article class="index-precios1">
+                    <article class="index-precios1 borde">
                         <h4>desde 1500$ hasta 4000$ por dia</h4>
                     </article>
-                    <article class="index-precios2">
+                    <article class="index-precios2 borde">
                         <h4>desde 7500$ hasta 15000$ por mes</h4>
                     </article>
 
@@ -205,11 +205,14 @@
             <!--  horarios  -->
 
             <div>
-                <article>
-                    <h2> distintos horarios para que puedas venir en tus tiempos libres</h2>
-                </article>
+                <section>
+                    <article class="titulo">
+                        <h2> distintos horarios para que puedas venir en tus tiempos libres</h2>
+                    </article>
+                </section>
+
                 <section class="index-horarios">
-                    <article class="index-horarios1">
+                    <article class="index-horarios1 borde">
                         <p>Gimnasio abierto las 24 horas de lunes a viernes</p>
 
                         <p>entrenadores casi todo el dia disponibles</p>
@@ -221,7 +224,7 @@
 
             <div class="contacto-general">
 
-                <section class="inf-contactos">
+                <section class="inf-contactos borde">
                     <article>
                         <h2>contactanos</h2>
                     </article>
@@ -236,23 +239,23 @@
                     <article>
                         <form action="/submit_formulario" method="POST">
                             <label for="nombre">Nombre:</label><br>
-                            <input type="text" id="nombre" name="nombre" required placeholder="nombre"><br>
+                            <input type="text" id="nombre" name="nombre" required placeholder="nombre"
+                                class="borde"><br>
                             <label for="email">Email:</label><br>
-                            <input type="email" id="email" name="email" required placeholder="email"><br>
+                            <input type="email" id="email" name="email" required placeholder="email" class="borde"><br>
                             <label for="mensaje">Mensaje:</label><br>
-                            <textarea id="mensaje" name="mensaje" rows="4" cols="50" required
-                                placeholder="contactanos"></textarea><br>
-                            <input type="submit" value="Enviar">
+                            <textarea id="mensaje" name="mensaje" rows="4" cols="50" required placeholder="contactanos"
+                                class="borde"></textarea><br>
+                            <input type="submit" value="Enviar" class="borde">
                         </form>
                     </article>
                 </section>
             </div>
         </div>
 
-
     </main>
 
-    <footer class="pie-de-pagina">
+    <footer class="pie-de-pagina borde">
         <div>
             <ul>
                 <li><a href="#">instagram</a></li>
