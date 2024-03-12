@@ -10,7 +10,7 @@ header {
         align-items: center;
         justify-content: space-between;
         height: 60px;
-        background-color: $negro-2;
+        background-image: linear-gradient($negro-2 90%, $negro, $gris);
         position: fixed;
         width: 100%;
         top: 0;
@@ -40,6 +40,58 @@ header {
 
             li {
                 padding: 0 7px;
+            }
+        }
+    }
+}
+
+@media (max-width: 620px) {
+
+    header {
+        display: flex;
+        height: 150px;
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: nowrap;
+
+        .nav {
+            height: 150px;
+
+            ul {
+                li {
+                    a {
+                        padding: 5px 5px;
+                    }
+                }
+            }
+        }
+
+    }
+
+}
+
+@media (max-width: 560px) {
+    header {
+        .nav {
+            display: flex;
+            height: 135px;
+            width: 100%;
+            justify-content: space-between;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            background-color: rgb(255, 0, 0);
+
+            ul {
+                display: flex;
+                flex-direction: column;
+                margin: 0;
+
+                li {
+                    a {
+                        color: yellow;
+                    }
+                }
             }
         }
     }
