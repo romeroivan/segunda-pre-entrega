@@ -1,0 +1,270 @@
+.carrusel {
+    p {
+        color: whited;
+    }
+
+    img {
+        height: 47rem;
+    }
+}
+
+.contenido-index {
+    .entrenamiento-index-general {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .index-entrenamiento {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+
+            .entrenamiento-pesas {
+                margin: 5px;
+                width: 25%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                img {
+                    width: 100%;
+                    height: 250px;
+                }
+            }
+
+            .entrenamiento-boxeo {
+                margin: 5px;
+                width: 25%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                img {
+                    width: 100%;
+                    height: 250px;
+                }
+            }
+
+            .entrenamiento-crossfit {
+                margin: 5px;
+                width: 25%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                img {
+                    width: 340px;
+                    height: 250px;
+                }
+            }
+
+            .entrenamiento-calistenia {
+                margin: 5px;
+                width: 25%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                img {
+                    width: 100%;
+                    height: 250px;
+                }
+            }
+        }
+
+    }
+
+    .index-entrenadores {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-auto-columns: 1fr;
+        grid-auto-rows: 1fr;
+        gap: 3px 3px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "index-entrenadores1 index-entrenadores2 index-entrenadores3 index-entrenadores3"
+            "index-entrenadores4 index-entrenadores4 index-entrenadores5 index-entrenadores6";
+    }
+
+    .index-entrenadores1 {
+        grid-area: index-entrenadores1;
+    }
+
+    .index-entrenadores2 {
+        grid-area: index-entrenadores2;
+    }
+
+    .index-entrenadores3 {
+        grid-area: index-entrenadores3;
+    }
+
+    .index-entrenadores4 {
+        grid-area: index-entrenadores4;
+    }
+
+    .index-entrenadores5 {
+        grid-area: index-entrenadores5;
+    }
+
+    .index-entrenadores6 {
+        grid-area: index-entrenadores6;
+    }
+
+    .titulo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .index-entrenadores {
+        .index-entrenadores1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .entrenadores-imagenes {
+                width: 100%;
+
+                img {
+                    width: 100%;
+                    height: 250px;
+                }
+            }
+        }
+
+        .index-entrenadores2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .entrenadores-imagenes {
+                width: 100%;
+
+                img {
+                    width: 100%;
+                    height: 250px;
+                }
+            }
+        }
+
+        .index-entrenadores3 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .entrenadores-imagenes {
+                width: 100%;
+
+                img {
+                    width: 100%;
+                    height: 250px;
+                }
+            }
+        }
+
+        .index-entrenadores4 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .entrenadores-imagenes {
+                width: 100%;
+
+                img {
+                    width: 100%;
+                    height: 250px;
+                }
+            }
+        }
+
+        .index-entrenadores5 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .entrenadores-imagenes {
+                width: 100%;
+
+                img {
+                    width: 100%;
+                    height: 250px;
+                }
+            }
+        }
+
+        .index-entrenadores6 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .entrenadores-imagenes {
+                width: 100%;
+
+                img {
+                    width: 100%;
+                    height: 250px;
+                }
+            }
+        }
+    }
+
+    .img-precios-index {
+        width: 100%;
+        height: 150px;
+        overflow: hidden;
+        margin-top: 10px;
+
+        img {
+            width: 100%;
+            height: 250px;
+        }
+    }
+
+    .precios-index {
+        display: flex;
+        flex-direction: column;
+
+        .precios-contenido-index {
+            display: flex;
+            justify-content: space-around;
+
+            .index-precios1 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: $rojo;
+                width: 100%;
+                height: 150px;
+                margin: 3px;
+            }
+
+            .index-precios2 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: $rojo;
+                width: 100%;
+                height: 150px;
+                margin: 3px;
+            }
+        }
+    }
+
+    .index-horarios {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .index-horarios1 {
+            margin-top: 10px;
+            background-color: $rojo;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 150px;
+            width: 100%;
+        }
+    }
+
+}

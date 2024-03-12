@@ -1,0 +1,198 @@
+.titulo-entrenadores {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.index-entrenadores- {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-rows: 1fr;
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "index-entrenadores-1 index-entrenadores-2 index-entrenadores-3 index-entrenadores-3"
+        "index-entrenadores-4 index-entrenadores-4 index-entrenadores-5 index-entrenadores-6";
+}
+
+.index-entrenadores-1 {
+    grid-area: index-entrenadores-1;
+}
+
+.index-entrenadores-2 {
+    grid-area: index-entrenadores-2;
+}
+
+.index-entrenadores-3 {
+    grid-area: index-entrenadores-3;
+}
+
+.index-entrenadores-4 {
+    grid-area: index-entrenadores-4;
+}
+
+.index-entrenadores-5 {
+    grid-area: index-entrenadores-5;
+}
+
+.index-entrenadores-6 {
+    grid-area: index-entrenadores-6;
+}
+
+.index-entrenadores-1 {
+    height: 315px;
+    width: 100%;
+
+    .entrenadores-imagenes-1 {
+        img {
+            width: 100%;
+            height: 230px;
+            border-radius: 7px;
+        }
+    }
+
+    p {
+        color: black;
+    }
+
+    h3 {
+        color: black;
+    }
+
+    h5 {
+        color: rgb(0, 0, 0);
+        background-color: yellow;
+        border-radius: 7px;
+    }
+}
+
+.index-entrenadores-2 {
+    height: 315px;
+
+    .entrenadores-imagenes-1 {
+        img {
+            width: 100%;
+            height: 210px;
+            border-radius: 7px;
+        }
+    }
+
+    p {
+        color: black;
+    }
+
+    h3 {
+        color: black;
+    }
+
+    h5 {
+        color: rgb(0, 0, 0);
+        background-color: yellow;
+        border-radius: 7px;
+    }
+}
+
+.index-entrenadores-3 {
+    height: 315px;
+
+    .entrenadores-imagenes-1 {
+        img {
+            width: 100%;
+            height: 245px;
+            border-radius: 7px;
+        }
+    }
+
+    p {
+        color: black;
+    }
+
+    h3 {
+        color: black;
+    }
+
+    h5 {
+        color: rgb(0, 0, 0);
+        background-color: yellow;
+        border-radius: 7px;
+    }
+}
+
+.index-entrenadores-4 {
+    height: 315px;
+
+    .entrenadores-imagenes-1 {
+        img {
+            width: 100%;
+            height: 265px;
+            border-radius: 7px;
+        }
+    }
+
+    p {
+        color: black;
+    }
+
+    h3 {
+        color: black;
+    }
+
+    h5 {
+        color: rgb(0, 0, 0);
+        background-color: yellow;
+        border-radius: 7px;
+    }
+}
+
+.index-entrenadores-5 {
+    height: 315px;
+
+    .entrenadores-imagenes-1 {
+        img {
+            width: 100%;
+            height: 210px;
+            border-radius: 7px;
+        }
+    }
+
+    p {
+        color: black;
+    }
+
+    h3 {
+        color: black;
+    }
+
+    h5 {
+        color: rgb(0, 0, 0);
+        background-color: yellow;
+        border-radius: 7px;
+    }
+}
+
+.index-entrenadores-6 {
+    height: 315px;
+
+    .entrenadores-imagenes-1 {
+        img {
+            width: 100%;
+            height: 230px;
+            border-radius: 7px;
+        }
+    }
+
+    p {
+        color: black;
+    }
+
+    h3 {
+        color: black;
+    }
+
+    h5 {
+        color: rgb(0, 0, 0);
+        background-color: yellow;
+        border-radius: 7px;
+    }
+}

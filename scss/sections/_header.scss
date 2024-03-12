@@ -1,0 +1,46 @@
+header {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 60px;
+        background-color: $negro-2;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+
+        a {
+            color: $blanco;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 7px;
+
+            &:hover {
+                background-color: $violeta;
+            }
+
+            img {
+                width: 50px;
+                height: 100%;
+                margin-top: 0;
+            }
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            padding: 10px 0;
+
+            li {
+                padding: 0 7px;
+            }
+        }
+    }
+}

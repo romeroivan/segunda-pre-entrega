@@ -1,0 +1,57 @@
+.titulo-entrenamiento {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.acordeon {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 5px 5px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "acordeon1 acordeon2 acordeon3 acordeon4";
+}
+
+.acordeon1 {
+    grid-area: acordeon1;
+}
+
+.acordeon2 {
+    grid-area: acordeon2;
+}
+
+.acordeon3 {
+    grid-area: acordeon3;
+}
+
+.acordeon4 {
+    grid-area: acordeon4;
+}
+
+.acordeon {
+    .entrenamiento-imagenes {
+        img {
+            height: 250px;
+            width: 99%;
+            margin: 2px;
+            border-radius: 7px;
+        }
+    }
+
+    .accordion-item {
+        .accordion-button {
+            background-color: $rojo;
+
+            &:hover {
+                background-color: $rojo;
+            }
+        }
+
+        .accordion-body {
+            background-color: $rojo;
+            height: auto;
+        }
+    }
+}

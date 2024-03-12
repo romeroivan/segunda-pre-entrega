@@ -1,0 +1,30 @@
+.horarios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .horarios2 {
+        margin-top: 10px;
+        background-color: $rojo;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 450px;
+        width: 50%;
+
+        p {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h3 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
