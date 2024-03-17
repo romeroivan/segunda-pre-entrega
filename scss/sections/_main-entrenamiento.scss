@@ -71,7 +71,11 @@
 }
 
 @media (max-width: 560px) {
+    .titulo-entrenamiento{
+        display: none;
+    }
     .acordeon {
+        margin-top: 100px;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;

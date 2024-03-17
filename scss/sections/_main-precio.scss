@@ -87,9 +87,20 @@
 }
 
 @media (max-width:710px) {
+    .titulo-precios{
+        display: none;
+    }
+    
+    .img-precios{
+        img{
+            margin-top: 100px;
+        }
+    }
+
     .precios-contenido {
         display: flex;
         flex-direction: column;
+        margin-top: 70px;
     }
 
 

@@ -383,7 +383,10 @@ main {
     color: #f6f7eb; }
 
 @media (max-width: 560px) {
+  .titulo-entrenamiento {
+    display: none; }
   .acordeon {
+    margin-top: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -524,6 +527,8 @@ main {
     border-radius: 7px; }
 
 @media (max-width: 1105px) {
+  .titulo-entrenadores {
+    display: none; }
   .index-entrenadores- .index-entrenadores-1 {
     margin-top: 10px; }
   .index-entrenadores- .index-entrenadores-2 {
@@ -550,6 +555,10 @@ main {
     margin-top: 25px; }
   .index-entrenadores- .index-entrenadores-6 {
     margin-top: 30px; } }
+
+@media (max-width: 600px) {
+  .index-entrenadores- {
+    margin-top: 100px; } }
 
 @media (max-width: 560px) {
   .index-entrenadores- {
@@ -648,9 +657,14 @@ main {
           color: #f6f7eb; }
 
 @media (max-width: 710px) {
+  .titulo-precios {
+    display: none; }
+  .img-precios img {
+    margin-top: 100px; }
   .precios-contenido {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    margin-top: 70px; }
   .precios .precios-contenido {
     display: flex; }
     .precios .precios-contenido .precios-1 .article-precios {
@@ -691,10 +705,13 @@ main {
       color: #f6f7eb; }
 
 @media (max-width: 960px) {
+  .titulo-horario {
+    display: none; }
   .horarios {
     display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    margin-top: 100px; }
     .horarios .horarios2 {
       margin-top: 10px;
       display: flex;

@@ -39,10 +39,15 @@
 }
 
 @media (max-width:960px) {
+    .titulo-horario {
+        display: none;
+    }
+
     .horarios {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-top: 100px;
 
         .horarios2 {
             margin-top: 10px;

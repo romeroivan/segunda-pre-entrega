@@ -199,7 +199,13 @@
 }
 
 @media (max-width:1105px) {
+
+    .titulo-entrenadores {
+        display: none;
+    }
+
     .index-entrenadores- {
+
         .index-entrenadores-1 {
             margin-top: 10px;
         }
@@ -229,6 +235,7 @@
 
 @media (max-width:660px) {
     .index-entrenadores- {
+
         .index-entrenadores-1 {
             margin-top: 10px;
         }
@@ -255,7 +262,11 @@
     }
 }
 
-
+@media (max-width:600px) {
+    .index-entrenadores- {
+        margin-top: 100px;
+    }
+}
 
 @media (max-width:560px) {
 
