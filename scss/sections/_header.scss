@@ -41,58 +41,19 @@ header {
             li {
                 padding: 0 7px;
             }
-
-        }
-
-        #menu-hamburguesa {
-            display: none;
-        }
-
-        label {
-            cursor: pointer;
-            display: none;
-
-            .menu-hamburguesa-imagen {
-                width: 25px;
-            }
         }
     }
 }
 
-@media(max-width:560px) {
-    .nav {
-        min-height: 70px;
-        top: 0;
-        padding: 20px;
+@media(max-width:600px) {
+    header {
 
-        label {
-            display: initial;
-            margin: 5px;
-        }
-
-        .navbar {
-            position: absolute;
-            top: 100%;
-            right: 0;
-            background-image: linear-gradient(#5c7481 90%, #677680, #9DA5AA);
-            display: none;
-            width: 25%;
-
+        .nav {
+            height: 140px;
             ul {
                 display: flex;
                 flex-direction: column;
-
-                li {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: flex-start;
-                    width: 100%;
-                }
             }
         }
-    }
-
-    #menu-hamburguesasa:checked~.navbar {
-        display: initial;
     }
 }

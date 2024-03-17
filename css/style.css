@@ -37,39 +37,13 @@ header {
       padding: 10px 0; }
       header .nav ul li {
         padding: 0 7px; }
-    header .nav #menu-hamburguesa {
-      display: none; }
-    header .nav label {
-      cursor: pointer;
-      display: none; }
-      header .nav label .menu-hamburguesa-imagen {
-        width: 25px; }
 
-@media (max-width: 560px) {
-  .nav {
-    min-height: 70px;
-    top: 0;
-    padding: 20px; }
-    .nav label {
-      display: initial;
-      margin: 5px; }
-    .nav .navbar {
-      position: absolute;
-      top: 100%;
-      right: 0;
-      background-image: linear-gradient(#5c7481 90%, #677680, #9DA5AA);
-      display: none;
-      width: 25%; }
-      .nav .navbar ul {
-        display: flex;
-        flex-direction: column; }
-        .nav .navbar ul li {
-          display: flex;
-          flex-direction: column;
-          align-items: flex-start;
-          width: 100%; }
-  #menu-hamburguesasa:checked ~ .navbar {
-    display: initial; } }
+@media (max-width: 600px) {
+  header .nav {
+    height: 140px; }
+    header .nav ul {
+      display: flex;
+      flex-direction: column; } }
 
 body {
   color: #f6f7eb;
@@ -81,12 +55,13 @@ main {
   background-image: linear-gradient(#393e41, #9DA5AA 90%); }
 
 .carrusel p {
-  color: whited; }
+  color: #f6f7eb; }
 
 .carrusel img {
   height: 47rem; }
 
 .contenido-index .entrenamiento-index-general {
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   align-items: center; }
@@ -167,7 +142,8 @@ main {
 
 .contenido-index .titulo {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  margin-top: 30px; }
 
 .contenido-index .index-entrenadores .index-entrenadores1 {
   display: flex;
@@ -250,8 +226,7 @@ main {
 .contenido-index .img-precios-index {
   width: 100%;
   height: 150px;
-  overflow: hidden;
-  margin-top: 10px; }
+  overflow: hidden; }
   .contenido-index .img-precios-index img {
     width: 100%;
     height: 250px;
@@ -305,23 +280,36 @@ main {
 @media (max-width: 560px) {
   .carrusel img {
     height: 57rem; }
-  .index-entrenamiento {
+  .contenido-index .entrenamiento-index-general .index-entrenamiento {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    grid-auto-columns: 1fr;
     grid-auto-rows: 1fr;
-    gap: 5px 5px;
+    gap: 3px 3px;
     grid-auto-flow: row;
     grid-template-areas: "entrenamiento-pesas entrenamiento-boxeo" "entrenamiento-crossfit entrenamiento-calistenia"; }
-    .index-entrenamiento .entrenamiento-pesas {
-      grid-area: entrenamiento-pesas; }
-    .index-entrenamiento .entrenamiento-boxeo {
-      grid-area: entrenamiento-boxeo; }
-    .index-entrenamiento .entrenamiento-crossfit {
-      grid-area: entrenamiento-crossfit; }
-    .index-entrenamiento .entrenamiento-calistenia {
-      grid-area: entrenamiento-calistenia; }
-  .index-entrenadores {
+    .contenido-index .entrenamiento-index-general .index-entrenamiento .entrenamiento-pesas {
+      grid-area: entrenamiento-pesas;
+      width: 100%; }
+      .contenido-index .entrenamiento-index-general .index-entrenamiento .entrenamiento-pesas img {
+        height: 250px; }
+    .contenido-index .entrenamiento-index-general .index-entrenamiento .entrenamiento-boxeo {
+      grid-area: entrenamiento-boxeo;
+      width: 100%; }
+      .contenido-index .entrenamiento-index-general .index-entrenamiento .entrenamiento-boxeo img {
+        height: 250px; }
+    .contenido-index .entrenamiento-index-general .index-entrenamiento .entrenamiento-crossfit {
+      grid-area: entrenamiento-crossfit;
+      width: 100%; }
+      .contenido-index .entrenamiento-index-general .index-entrenamiento .entrenamiento-crossfit img {
+        height: 250px; }
+    .contenido-index .entrenamiento-index-general .index-entrenamiento .entrenamiento-calistenia {
+      grid-area: entrenamiento-calistenia;
+      width: 100%; }
+      .contenido-index .entrenamiento-index-general .index-entrenamiento .entrenamiento-calistenia img {
+        height: 250px; }
+  .contenido-index .index-entrenadores {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -330,18 +318,21 @@ main {
     gap: 3px 3px;
     grid-auto-flow: row;
     grid-template-areas: "index-entrenadores1 index-entrenadores2" "index-entrenadores3 index-entrenadores4" "index-entrenadores5 index-entrenadores6"; }
-    .index-entrenadores .index-entrenadores1 {
+    .contenido-index .index-entrenadores .index-entrenadores1 {
       grid-area: index-entrenadores1; }
-    .index-entrenadores .index-entrenadores2 {
+    .contenido-index .index-entrenadores .index-entrenadores2 {
       grid-area: index-entrenadores2; }
-    .index-entrenadores .index-entrenadores3 {
+    .contenido-index .index-entrenadores .index-entrenadores3 {
       grid-area: index-entrenadores3; }
-    .index-entrenadores .index-entrenadores4 {
+    .contenido-index .index-entrenadores .index-entrenadores4 {
       grid-area: index-entrenadores4; }
-    .index-entrenadores .index-entrenadores5 {
+    .contenido-index .index-entrenadores .index-entrenadores5 {
       grid-area: index-entrenadores5; }
-    .index-entrenadores .index-entrenadores6 {
-      grid-area: index-entrenadores6; } }
+    .contenido-index .index-entrenadores .index-entrenadores6 {
+      grid-area: index-entrenadores6; }
+  .contenido-index .precios-index .precios-contenido-index {
+    display: flex;
+    flex-direction: column; } }
 
 .titulo-entrenamiento {
   display: flex;
@@ -756,3 +747,59 @@ main {
       display: flex;
       align-items: center;
       height: 50px; }
+
+.footer-entrenadores {
+  background-color: #1C1F21;
+  margin-top: 60px; }
+  .footer-entrenadores .footer-index {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .footer-entrenadores .footer-index .redes-sociales ul {
+      list-style: none; }
+      .footer-entrenadores .footer-index .redes-sociales ul li a {
+        text-decoration: none;
+        color: white; }
+        .footer-entrenadores .footer-index .redes-sociales ul li a:hover {
+          background-color: #393e41; }
+    .footer-entrenadores .footer-index .contacto-general {
+      display: flex; }
+      .footer-entrenadores .footer-index .contacto-general .inf-contactos {
+        height: 250px;
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 5px; }
+      .footer-entrenadores .footer-index .contacto-general .contacto {
+        margin: 5px;
+        width: 250px; }
+        .footer-entrenadores .footer-index .contacto-general .contacto article form textarea {
+          width: 250px;
+          margin-top: -30px; }
+        .footer-entrenadores .footer-index .contacto-general .contacto article form .nombre {
+          margin-top: 0; }
+        .footer-entrenadores .footer-index .contacto-general .contacto article form .email {
+          margin-top: -30px; }
+        .footer-entrenadores .footer-index .contacto-general .contacto article form input {
+          width: 250px;
+          display: flex;
+          justify-content: center;
+          margin-top: 7px; }
+  .footer-entrenadores .pie-de-pagina {
+    display: flex;
+    justify-content: center;
+    background-color: #5c415d;
+    height: 50px; }
+    .footer-entrenadores .pie-de-pagina p {
+      display: flex;
+      align-items: center;
+      height: 50px; }
+
+@media (max-width: 780px) {
+  .footer-entrenadores {
+    margin-top: 150px; } }
+
+@media (max-width: 750px) {
+  .footer-entrenadores {
+    margin-top: 250px; } }
