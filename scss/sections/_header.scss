@@ -1,5 +1,5 @@
 header {
-    color: white;
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,20 +10,20 @@ header {
         align-items: center;
         justify-content: space-between;
         height: 60px;
-        background-image: linear-gradient($negro-2 90%, $negro, $gris);
+        background-image: linear-gradient(#1C1F21 90%, #393e41, #9DA5AA);
         position: fixed;
         width: 100%;
         top: 0;
         z-index: 1000;
 
         a {
-            color: $blanco;
+            color: #f6f7eb;
             text-decoration: none;
             padding: 5px 10px;
             border-radius: 7px;
 
             &:hover {
-                background-color: $violeta;
+                background-color: #5c415d;
             }
 
             img {
@@ -41,58 +41,58 @@ header {
             li {
                 padding: 0 7px;
             }
+
         }
-    }
-}
 
-@media (max-width: 620px) {
+        #menu-hamburguesa {
+            display: none;
+        }
 
-    header {
-        display: flex;
-        height: 150px;
-        width: 100%;
-        justify-content: space-between;
-        flex-direction: row;
-        flex-wrap: nowrap;
+        label {
+            cursor: pointer;
+            display: none;
 
-        .nav {
-            height: 150px;
-
-            ul {
-                li {
-                    a {
-                        padding: 5px 5px;
-                    }
-                }
+            .menu-hamburguesa-imagen {
+                width: 25px;
             }
         }
-
     }
-
 }
 
-@media (max-width: 560px) {
-    header {
-        .nav {
-            display: flex;
-            height: 135px;
-            width: 100%;
-            justify-content: space-between;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            background-color: rgb(255, 0, 0);
+@media(max-width:560px) {
+    .nav {
+        min-height: 70px;
+        top: 0;
+        padding: 20px;
+
+        label {
+            display: initial;
+            margin: 5px;
+        }
+
+        .navbar {
+            position: absolute;
+            top: 100%;
+            right: 0;
+            background-image: linear-gradient(#5c7481 90%, #677680, #9DA5AA);
+            display: none;
+            width: 25%;
 
             ul {
                 display: flex;
                 flex-direction: column;
-                margin: 0;
 
                 li {
-                    a {
-                        color: yellow;
-                    }
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    width: 100%;
                 }
             }
         }
+    }
+
+    #menu-hamburguesasa:checked~.navbar {
+        display: initial;
     }
 }
