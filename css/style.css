@@ -337,7 +337,8 @@ main {
 .titulo-entrenamiento {
   display: flex;
   justify-content: center;
-  padding: 10px; }
+  padding: 10px;
+  margin-top: 30px; }
 
 .acordeon {
   display: grid;
@@ -401,7 +402,8 @@ main {
 .titulo-entrenadores {
   display: flex;
   justify-content: center;
-  padding: 10px; }
+  padding: 10px;
+  margin-top: 30px; }
 
 .index-entrenadores- {
   display: grid;
@@ -586,7 +588,8 @@ main {
 .titulo-precios {
   display: flex;
   justify-content: center;
-  padding: 10px; }
+  padding: 10px;
+  margin-top: 30px; }
 
 .img-precios {
   width: 100%;
@@ -658,7 +661,8 @@ main {
 .titulo-horario {
   display: flex;
   justify-content: center;
-  padding: 10px; }
+  padding: 10px;
+  margin-top: 30px; }
 
 .horarios {
   display: flex;
