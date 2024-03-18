@@ -4,7 +4,7 @@
 
     .footer-index {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
 
         .redes-sociales {
@@ -16,6 +16,12 @@
                     a {
                         text-decoration: none;
                         color: white;
+
+                        img {
+                            height: 20px;
+                            width: 20px;
+                            background-color: white;
+                        }
 
                         &:hover {
                             background-color: $negro;
@@ -81,4 +87,4 @@
         }
     }
 
-} 
+}
