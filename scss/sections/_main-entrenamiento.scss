@@ -34,8 +34,8 @@
 .acordeon {
     .entrenamiento-imagenes {
         img {
-            height: 250px;
-            width: 99%;
+            height: 225px;
+            width: 95%;
             margin: 2px;
             border-radius: 7px;
             transition: transform 0.3s ease-in-out;
@@ -71,9 +71,19 @@
 }
 
 @media (max-width: 560px) {
-    .titulo-entrenamiento{
+    .titulo-entrenamiento {
         display: none;
     }
+
+    .acordeon {
+        .entrenamiento-imagenes {
+            img {
+                height: 125px;
+                width: 90%;
+            }
+        }
+    }
+
     .acordeon {
         margin-top: 100px;
         display: grid;

@@ -352,7 +352,11 @@
 
 
 @media (max-width: 560px) {
-
+    .carrusel {
+        img {
+            height: 40rem;
+        }
+    }
 
     .contenido-index {
         .entrenamiento-index-general {
@@ -374,24 +378,36 @@
                     grid-area: entrenamiento-pesas;
                     width: 100%;
 
+                    img {
+                        height: 100px;
+                    }
                 }
 
                 .entrenamiento-boxeo {
                     grid-area: entrenamiento-boxeo;
                     width: 100%;
 
+                    img {
+                        height: 100px;
+                    }
                 }
 
                 .entrenamiento-crossfit {
                     grid-area: entrenamiento-crossfit;
                     width: 100%;
 
+                    img {
+                        height: 100px;
+                    }
                 }
 
                 .entrenamiento-calistenia {
                     grid-area: entrenamiento-calistenia;
                     width: 100%;
 
+                    img {
+                        height: 100px;
+                    }
                 }
 
 
