@@ -274,20 +274,27 @@
 
     .img-precios-index {
         width: 100%;
-        height: 150px;
+        height: 270px;
         overflow: hidden;
 
-
-        img {
-            width: 100%;
-            height: 250px;
+        article {
+            display: flex;
+            justify-content: center;
+            background-color: black;
             border-radius: 7px;
             transition: transform 0.3s ease-in-out;
 
             &:hover {
                 transform: scale(1.1);
             }
+
+            img {
+                width: 50%;
+                height: 260px;
+
+            }
         }
+
     }
 
     .precios-index {
@@ -451,6 +458,18 @@
             .index-entrenadores6 {
                 grid-area: index-entrenadores6;
             }
+        }
+
+        .img-precios-index {
+
+            article {
+
+                img {
+                    width: 100%;
+                    height: 270px;
+                }
+            }
+
         }
 
         .precios-index {
