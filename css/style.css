@@ -728,19 +728,16 @@ main {
     .precios .precios-contenido .precios-1 {
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      align-items: center;
       background-color: #393e41;
-      width: 100%;
-      height: 350px;
+      width: 30%;
+      height: 400px;
       margin: 3px; }
       .precios .precios-contenido .precios-1 .article-precios {
         display: flex;
-        justify-content: center;
         flex-direction: column;
-        width: 75%;
-        align-items: center;
-        height: 100%; }
+        width: 100%;
+        height: 33%;
+        margin-top: 20px; }
         .precios .precios-contenido .precios-1 .article-precios h3 {
           color: #f6f7eb; }
         .precios .precios-contenido .precios-1 .article-precios p {
@@ -748,26 +745,22 @@ main {
     .precios .precios-contenido .precios-2 {
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      align-content: center;
       background-color: #393e41;
-      width: 100%;
-      height: 350px;
+      width: 30%;
+      height: 400px;
       margin: 3px; }
       .precios .precios-contenido .precios-2 .article-precios {
         display: flex;
-        justify-content: center;
         flex-direction: column;
-        width: 75%;
-        align-items: center;
-        height: 100%; }
+        width: 100%;
+        height: 50%;
+        margin-top: 20px; }
         .precios .precios-contenido .precios-2 .article-precios h3 {
           color: #f6f7eb; }
         .precios .precios-contenido .precios-2 .article-precios p {
           color: #f6f7eb; }
 
-@media (max-width: 710px) {
+@media (max-width: 890px) {
   .titulo-precios {
     display: none;
     margin-top: 100px; }
@@ -783,11 +776,17 @@ main {
     flex-direction: column;
     margin-top: 25px; }
   .precios .precios-contenido {
-    display: flex; }
-    .precios .precios-contenido .precios-1 .article-precios {
-      width: 100%; }
-    .precios .precios-contenido .precios-2 .article-precios {
-      width: 100%; } }
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .precios .precios-contenido .precios-1 {
+      width: 75%; }
+      .precios .precios-contenido .precios-1 .article-precios {
+        width: 100%; }
+    .precios .precios-contenido .precios-2 {
+      width: 75%; }
+      .precios .precios-contenido .precios-2 .article-precios {
+        width: 100%; } }
 
 .titulo-horario {
   display: flex;
@@ -804,37 +803,34 @@ main {
     background-color: #393e41;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 450px;
-    width: 50%; }
+    height: 500px;
+    width: 35%; }
+    .horarios .horarios2 section {
+      margin-top: 20px;
+      height: 25%; }
     .horarios .horarios2 p {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
       color: #f6f7eb; }
     .horarios .horarios2 h3 {
       display: flex;
-      flex-direction: column;
-      align-items: center;
       justify-content: center;
       color: #f6f7eb; }
 
-@media (max-width: 960px) {
+@media (max-width: 1190px) {
+  .horarios .horarios2 {
+    width: 50%;
+    height: 550px; } }
+
+@media (max-width: 700px) {
   .titulo-horario {
     display: none; }
   .horarios {
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin-top: 100px; }
     .horarios .horarios2 {
       margin-top: 10px;
       display: flex;
       flex-direction: column;
-      align-items: center;
-      justify-content: center;
       height: 600px;
       width: 100%; } }
 
