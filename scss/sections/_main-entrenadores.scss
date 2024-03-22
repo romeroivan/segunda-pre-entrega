@@ -42,10 +42,24 @@
 }
 
 .index-entrenadores-1 {
-    height: 315px;
+    height: auto;
     width: 100%;
+    background-color: $gris;
+    border-radius: 7px;
+
+    .titulo2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
     .entrenadores-imagenes-1 {
+        .titulo2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
         img {
             width: 100%;
             height: 230px;
@@ -74,7 +88,15 @@
 }
 
 .index-entrenadores-2 {
-    height: 315px;
+    height: auto;
+    width: 100%;
+    background-color: $gris;
+    border-radius: 7px;
+    .titulo2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
     .entrenadores-imagenes-1 {
         img {
@@ -105,11 +127,22 @@
 }
 
 .index-entrenadores-3 {
-    height: 315px;
+    height: auto;
+    width: 100%;
+    background-color: $gris;
+    border-radius: 7px;
+    .titulo2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
     .entrenadores-imagenes-1 {
+        display: flex;
+        justify-content: center;
+
         img {
-            width: 100%;
+            width: 50%;
             height: 245px;
             border-radius: 7px;
             transition: transform 0.3s ease-in-out;
@@ -136,11 +169,22 @@
 }
 
 .index-entrenadores-4 {
-    height: 315px;
+    height: auto;
+    width: 100%;
+    background-color: $gris;
+    border-radius: 7px;
+    .titulo2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
     .entrenadores-imagenes-1 {
+        display: flex;
+        justify-content: center;
+
         img {
-            width: 100%;
+            width: 50%;
             height: 265px;
             border-radius: 7px;
             transition: transform 0.3s ease-in-out;
@@ -167,7 +211,15 @@
 }
 
 .index-entrenadores-5 {
-    height: 315px;
+    height: auto;
+    width: 100%;
+    background-color: $gris;
+    border-radius: 7px;
+    .titulo2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
     .entrenadores-imagenes-1 {
         img {
@@ -198,7 +250,15 @@
 }
 
 .index-entrenadores-6 {
-    height: 315px;
+    height: auto;
+    width: 100%;
+    background-color: $gris;
+    border-radius: 7px;
+    .titulo2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
     .entrenadores-imagenes-1 {
         img {
@@ -233,64 +293,9 @@
     .titulo-entrenadores {
         display: none;
     }
-
-    .index-entrenadores- {
-
-        .index-entrenadores-1 {
-            margin-top: 10px;
-        }
-
-        .index-entrenadores-2 {
-            margin-top: 10px;
-        }
-
-        .index-entrenadores-3 {
-            margin-top: 10px;
-        }
-
-        .index-entrenadores-4 {
-            margin-top: 50px;
-        }
-
-        .index-entrenadores-5 {
-            margin-top: 10px;
-        }
-
-        .index-entrenadores-6 {
-            margin-top: 30px;
-        }
-    }
 }
 
 
-@media (max-width:660px) {
-    .index-entrenadores- {
-
-        .index-entrenadores-1 {
-            margin-top: 10px;
-        }
-
-        .index-entrenadores-2 {
-            margin-top: 10px;
-        }
-
-        .index-entrenadores-3 {
-            margin-top: 10px;
-        }
-
-        .index-entrenadores-4 {
-            margin-top: 80px;
-        }
-
-        .index-entrenadores-5 {
-            margin-top: 25px;
-        }
-
-        .index-entrenadores-6 {
-            margin-top: 30px;
-        }
-    }
-}
 
 @media (max-width:600px) {
     .index-entrenadores- {
@@ -337,32 +342,69 @@
         grid-area: index-entrenadores-6;
     }
 
-    .index-entrenadores- {
+    .index-entrenadores-1 {
 
+        .entrenadores-imagenes-1 {
+            img {
+                width: 100%;
+                height: 130px;
 
-
-        .index-entrenadores-1 {
-            margin-top: 10px;
+            }
         }
+    }
 
-        .index-entrenadores-2 {
-            margin-top: 10px;
+    .index-entrenadores-2 {
+
+        .entrenadores-imagenes-1 {
+            img {
+                width: 100%;
+                height: 130px;
+
+            }
         }
+    }
 
-        .index-entrenadores-3 {
-            margin-top: 0;
+    .index-entrenadores-3 {
+
+        .entrenadores-imagenes-1 {
+            img {
+                width: 100%;
+                height: 130px;
+
+            }
         }
+    }
 
-        .index-entrenadores-4 {
-            margin-top: 30px;
+    .index-entrenadores-4 {
+
+        .entrenadores-imagenes-1 {
+            img {
+                width: 100%;
+                height: 130px;
+
+            }
         }
+    }
 
-        .index-entrenadores-5 {
-            margin-top: 110px;
+    .index-entrenadores-5 {
+
+        .entrenadores-imagenes-1 {
+            img {
+                width: 100%;
+                height: 130px;
+
+            }
         }
+    }
 
-        .index-entrenadores-6 {
-            margin-top: 90px;
+    .index-entrenadores-6 {
+
+        .entrenadores-imagenes-1 {
+            img {
+                width: 100%;
+                height: 130px;
+
+            }
         }
     }
 }

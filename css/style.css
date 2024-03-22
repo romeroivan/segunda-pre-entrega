@@ -79,9 +79,7 @@ main {
         width: 100%;
         height: 150px;
         border-radius: 7px;
-        transition: transform 0.3s ease-in-out; }
-        .contenido-index .entrenamiento-index-general .index-entrenamiento .entrenamiento-pesas img:hover {
-          transform: scale(1.1); }
+        animation: heartbeat 1s infinite; }
     .contenido-index .entrenamiento-index-general .index-entrenamiento .entrenamiento-boxeo {
       margin: 5px;
       width: 25%;
@@ -92,9 +90,7 @@ main {
         width: 100%;
         height: 150px;
         border-radius: 7px;
-        transition: transform 0.3s ease-in-out; }
-        .contenido-index .entrenamiento-index-general .index-entrenamiento .entrenamiento-boxeo img:hover {
-          transform: scale(1.1); }
+        animation: heartbeat 1s infinite; }
     .contenido-index .entrenamiento-index-general .index-entrenamiento .entrenamiento-crossfit {
       margin: 5px;
       width: 25%;
@@ -105,9 +101,7 @@ main {
         width: 100%;
         height: 150px;
         border-radius: 7px;
-        transition: transform 0.3s ease-in-out; }
-        .contenido-index .entrenamiento-index-general .index-entrenamiento .entrenamiento-crossfit img:hover {
-          transform: scale(1.1); }
+        animation: heartbeat 1s infinite; }
     .contenido-index .entrenamiento-index-general .index-entrenamiento .entrenamiento-calistenia {
       margin: 5px;
       width: 25%;
@@ -118,9 +112,15 @@ main {
         width: 100%;
         height: 150px;
         border-radius: 7px;
-        transition: transform 0.3s ease-in-out; }
-        .contenido-index .entrenamiento-index-general .index-entrenamiento .entrenamiento-calistenia img:hover {
-          transform: scale(1.1); }
+        animation: heartbeat 1s infinite; }
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1); }
+  50% {
+    transform: scale(1.1); }
+  100% {
+    transform: scale(1); } }
 
 .contenido-index .index-entrenadores {
   display: grid;
@@ -154,11 +154,12 @@ main {
   flex-direction: column;
   align-items: center; }
   .contenido-index .index-entrenadores .index-entrenadores1 .entrenadores-imagenes {
-    width: 100%; }
+    width: 100%;
+    background-color: #9DA5AA;
+    border-radius: 7px; }
     .contenido-index .index-entrenadores .index-entrenadores1 .entrenadores-imagenes img {
       width: 100%;
       height: 250px;
-      border-radius: 7px;
       transition: transform 0.3s ease-in-out; }
       .contenido-index .index-entrenadores .index-entrenadores1 .entrenadores-imagenes img:hover {
         transform: scale(1.1); }
@@ -168,11 +169,12 @@ main {
   flex-direction: column;
   align-items: center; }
   .contenido-index .index-entrenadores .index-entrenadores2 .entrenadores-imagenes {
-    width: 100%; }
+    width: 100%;
+    background-color: #9DA5AA;
+    border-radius: 7px; }
     .contenido-index .index-entrenadores .index-entrenadores2 .entrenadores-imagenes img {
       width: 100%;
       height: 250px;
-      border-radius: 7px;
       transition: transform 0.3s ease-in-out; }
       .contenido-index .index-entrenadores .index-entrenadores2 .entrenadores-imagenes img:hover {
         transform: scale(1.1); }
@@ -182,11 +184,14 @@ main {
   flex-direction: column;
   align-items: center; }
   .contenido-index .index-entrenadores .index-entrenadores3 .entrenadores-imagenes {
-    width: 100%; }
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #9DA5AA;
+    border-radius: 7px; }
     .contenido-index .index-entrenadores .index-entrenadores3 .entrenadores-imagenes img {
-      width: 100%;
+      width: 50%;
       height: 250px;
-      border-radius: 7px;
       transition: transform 0.3s ease-in-out; }
       .contenido-index .index-entrenadores .index-entrenadores3 .entrenadores-imagenes img:hover {
         transform: scale(1.1); }
@@ -196,11 +201,14 @@ main {
   flex-direction: column;
   align-items: center; }
   .contenido-index .index-entrenadores .index-entrenadores4 .entrenadores-imagenes {
-    width: 100%; }
+    width: 100%;
+    background-color: #9DA5AA;
+    display: flex;
+    justify-content: center;
+    border-radius: 7px; }
     .contenido-index .index-entrenadores .index-entrenadores4 .entrenadores-imagenes img {
-      width: 100%;
+      width: 50%;
       height: 250px;
-      border-radius: 7px;
       transition: transform 0.3s ease-in-out; }
       .contenido-index .index-entrenadores .index-entrenadores4 .entrenadores-imagenes img:hover {
         transform: scale(1.1); }
@@ -210,11 +218,12 @@ main {
   flex-direction: column;
   align-items: center; }
   .contenido-index .index-entrenadores .index-entrenadores5 .entrenadores-imagenes {
-    width: 100%; }
+    width: 100%;
+    background-color: #9DA5AA;
+    border-radius: 7px; }
     .contenido-index .index-entrenadores .index-entrenadores5 .entrenadores-imagenes img {
       width: 100%;
       height: 250px;
-      border-radius: 7px;
       transition: transform 0.3s ease-in-out; }
       .contenido-index .index-entrenadores .index-entrenadores5 .entrenadores-imagenes img:hover {
         transform: scale(1.1); }
@@ -224,11 +233,12 @@ main {
   flex-direction: column;
   align-items: center; }
   .contenido-index .index-entrenadores .index-entrenadores6 .entrenadores-imagenes {
-    width: 100%; }
+    width: 100%;
+    background-color: #9DA5AA;
+    border-radius: 7px; }
     .contenido-index .index-entrenadores .index-entrenadores6 .entrenadores-imagenes img {
       width: 100%;
       height: 250px;
-      border-radius: 7px;
       transition: transform 0.3s ease-in-out; }
       .contenido-index .index-entrenadores .index-entrenadores6 .entrenadores-imagenes img:hover {
         transform: scale(1.1); }
@@ -294,7 +304,7 @@ main {
 
 @media (max-width: 560px) {
   .carrusel img {
-    height: 40rem; }
+    height: 20rem; }
   .contenido-index .entrenamiento-index-general .index-entrenamiento {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -345,6 +355,24 @@ main {
       grid-area: index-entrenadores5; }
     .contenido-index .index-entrenadores .index-entrenadores6 {
       grid-area: index-entrenadores6; }
+  .contenido-index .index-entrenadores .index-entrenadores1 .entrenadores-imagenes img {
+    width: 100%;
+    height: 150px; }
+  .contenido-index .index-entrenadores .index-entrenadores2 .entrenadores-imagenes img {
+    width: 100%;
+    height: 150px; }
+  .contenido-index .index-entrenadores .index-entrenadores3 .entrenadores-imagenes img {
+    width: 100%;
+    height: 150px; }
+  .contenido-index .index-entrenadores .index-entrenadores4 .entrenadores-imagenes img {
+    width: 100%;
+    height: 150px; }
+  .contenido-index .index-entrenadores .index-entrenadores5 .entrenadores-imagenes img {
+    width: 100%;
+    height: 150px; }
+  .contenido-index .index-entrenadores .index-entrenadores6 .entrenadores-imagenes img {
+    width: 100%;
+    height: 150px; }
   .contenido-index .img-precios-index article img {
     width: 100%;
     height: 270px; }
@@ -383,9 +411,15 @@ main {
   width: 95%;
   margin: 2px;
   border-radius: 7px;
-  transition: transform 0.3s ease-in-out; }
-  .acordeon .entrenamiento-imagenes img:hover {
+  animation: heartbeat 1s infinite; }
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1); }
+  50% {
     transform: scale(1.1); }
+  100% {
+    transform: scale(1); } }
 
 .acordeon .accordion-item .accordion-button {
   background-color: #393e41; }
@@ -457,8 +491,18 @@ main {
   grid-area: index-entrenadores-6; }
 
 .index-entrenadores-1 {
-  height: 315px;
-  width: 100%; }
+  height: auto;
+  width: 100%;
+  background-color: #9DA5AA;
+  border-radius: 7px; }
+  .index-entrenadores-1 .titulo2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .index-entrenadores-1 .entrenadores-imagenes-1 .titulo2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
   .index-entrenadores-1 .entrenadores-imagenes-1 img {
     width: 100%;
     height: 230px;
@@ -476,7 +520,14 @@ main {
     border-radius: 7px; }
 
 .index-entrenadores-2 {
-  height: 315px; }
+  height: auto;
+  width: 100%;
+  background-color: #9DA5AA;
+  border-radius: 7px; }
+  .index-entrenadores-2 .titulo2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
   .index-entrenadores-2 .entrenadores-imagenes-1 img {
     width: 100%;
     height: 210px;
@@ -494,14 +545,24 @@ main {
     border-radius: 7px; }
 
 .index-entrenadores-3 {
-  height: 315px; }
-  .index-entrenadores-3 .entrenadores-imagenes-1 img {
-    width: 100%;
-    height: 245px;
-    border-radius: 7px;
-    transition: transform 0.3s ease-in-out; }
-    .index-entrenadores-3 .entrenadores-imagenes-1 img:hover {
-      transform: scale(1.1); }
+  height: auto;
+  width: 100%;
+  background-color: #9DA5AA;
+  border-radius: 7px; }
+  .index-entrenadores-3 .titulo2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .index-entrenadores-3 .entrenadores-imagenes-1 {
+    display: flex;
+    justify-content: center; }
+    .index-entrenadores-3 .entrenadores-imagenes-1 img {
+      width: 50%;
+      height: 245px;
+      border-radius: 7px;
+      transition: transform 0.3s ease-in-out; }
+      .index-entrenadores-3 .entrenadores-imagenes-1 img:hover {
+        transform: scale(1.1); }
   .index-entrenadores-3 p {
     color: black; }
   .index-entrenadores-3 h3 {
@@ -512,14 +573,24 @@ main {
     border-radius: 7px; }
 
 .index-entrenadores-4 {
-  height: 315px; }
-  .index-entrenadores-4 .entrenadores-imagenes-1 img {
-    width: 100%;
-    height: 265px;
-    border-radius: 7px;
-    transition: transform 0.3s ease-in-out; }
-    .index-entrenadores-4 .entrenadores-imagenes-1 img:hover {
-      transform: scale(1.1); }
+  height: auto;
+  width: 100%;
+  background-color: #9DA5AA;
+  border-radius: 7px; }
+  .index-entrenadores-4 .titulo2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .index-entrenadores-4 .entrenadores-imagenes-1 {
+    display: flex;
+    justify-content: center; }
+    .index-entrenadores-4 .entrenadores-imagenes-1 img {
+      width: 50%;
+      height: 265px;
+      border-radius: 7px;
+      transition: transform 0.3s ease-in-out; }
+      .index-entrenadores-4 .entrenadores-imagenes-1 img:hover {
+        transform: scale(1.1); }
   .index-entrenadores-4 p {
     color: black; }
   .index-entrenadores-4 h3 {
@@ -530,7 +601,14 @@ main {
     border-radius: 7px; }
 
 .index-entrenadores-5 {
-  height: 315px; }
+  height: auto;
+  width: 100%;
+  background-color: #9DA5AA;
+  border-radius: 7px; }
+  .index-entrenadores-5 .titulo2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
   .index-entrenadores-5 .entrenadores-imagenes-1 img {
     width: 100%;
     height: 210px;
@@ -548,7 +626,14 @@ main {
     border-radius: 7px; }
 
 .index-entrenadores-6 {
-  height: 315px; }
+  height: auto;
+  width: 100%;
+  background-color: #9DA5AA;
+  border-radius: 7px; }
+  .index-entrenadores-6 .titulo2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
   .index-entrenadores-6 .entrenadores-imagenes-1 img {
     width: 100%;
     height: 230px;
@@ -567,33 +652,7 @@ main {
 
 @media (max-width: 1105px) {
   .titulo-entrenadores {
-    display: none; }
-  .index-entrenadores- .index-entrenadores-1 {
-    margin-top: 10px; }
-  .index-entrenadores- .index-entrenadores-2 {
-    margin-top: 10px; }
-  .index-entrenadores- .index-entrenadores-3 {
-    margin-top: 10px; }
-  .index-entrenadores- .index-entrenadores-4 {
-    margin-top: 50px; }
-  .index-entrenadores- .index-entrenadores-5 {
-    margin-top: 10px; }
-  .index-entrenadores- .index-entrenadores-6 {
-    margin-top: 30px; } }
-
-@media (max-width: 660px) {
-  .index-entrenadores- .index-entrenadores-1 {
-    margin-top: 10px; }
-  .index-entrenadores- .index-entrenadores-2 {
-    margin-top: 10px; }
-  .index-entrenadores- .index-entrenadores-3 {
-    margin-top: 10px; }
-  .index-entrenadores- .index-entrenadores-4 {
-    margin-top: 80px; }
-  .index-entrenadores- .index-entrenadores-5 {
-    margin-top: 25px; }
-  .index-entrenadores- .index-entrenadores-6 {
-    margin-top: 30px; } }
+    display: none; } }
 
 @media (max-width: 600px) {
   .index-entrenadores- {
@@ -620,18 +679,24 @@ main {
     grid-area: index-entrenadores-5; }
   .index-entrenadores-6 {
     grid-area: index-entrenadores-6; }
-  .index-entrenadores- .index-entrenadores-1 {
-    margin-top: 10px; }
-  .index-entrenadores- .index-entrenadores-2 {
-    margin-top: 10px; }
-  .index-entrenadores- .index-entrenadores-3 {
-    margin-top: 0; }
-  .index-entrenadores- .index-entrenadores-4 {
-    margin-top: 30px; }
-  .index-entrenadores- .index-entrenadores-5 {
-    margin-top: 110px; }
-  .index-entrenadores- .index-entrenadores-6 {
-    margin-top: 90px; } }
+  .index-entrenadores-1 .entrenadores-imagenes-1 img {
+    width: 100%;
+    height: 130px; }
+  .index-entrenadores-2 .entrenadores-imagenes-1 img {
+    width: 100%;
+    height: 130px; }
+  .index-entrenadores-3 .entrenadores-imagenes-1 img {
+    width: 100%;
+    height: 130px; }
+  .index-entrenadores-4 .entrenadores-imagenes-1 img {
+    width: 100%;
+    height: 130px; }
+  .index-entrenadores-5 .entrenadores-imagenes-1 img {
+    width: 100%;
+    height: 130px; }
+  .index-entrenadores-6 .entrenadores-imagenes-1 img {
+    width: 100%;
+    height: 130px; } }
 
 .titulo-precios {
   display: flex;
@@ -824,63 +889,3 @@ main {
       display: flex;
       align-items: center;
       height: 50px; }
-
-.footer-entrenadores {
-  background-color: #1C1F21;
-  margin-top: 60px; }
-  .footer-entrenadores .footer-index {
-    display: flex;
-    justify-content: space-around;
-    align-items: center; }
-    .footer-entrenadores .footer-index .redes-sociales ul {
-      list-style: none; }
-      .footer-entrenadores .footer-index .redes-sociales ul li a {
-        text-decoration: none;
-        color: white; }
-        .footer-entrenadores .footer-index .redes-sociales ul li a img {
-          height: 20px;
-          width: 20px;
-          background-color: white; }
-        .footer-entrenadores .footer-index .redes-sociales ul li a:hover {
-          background-color: #393e41; }
-    .footer-entrenadores .footer-index .contacto-general {
-      display: flex; }
-      .footer-entrenadores .footer-index .contacto-general .inf-contactos {
-        height: 250px;
-        width: 250px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 5px; }
-      .footer-entrenadores .footer-index .contacto-general .contacto {
-        margin: 5px;
-        width: 250px; }
-        .footer-entrenadores .footer-index .contacto-general .contacto article form textarea {
-          width: 250px;
-          margin-top: -30px; }
-        .footer-entrenadores .footer-index .contacto-general .contacto article form .nombre {
-          margin-top: 0; }
-        .footer-entrenadores .footer-index .contacto-general .contacto article form .email {
-          margin-top: -30px; }
-        .footer-entrenadores .footer-index .contacto-general .contacto article form input {
-          width: 250px;
-          display: flex;
-          justify-content: center;
-          margin-top: 7px; }
-  .footer-entrenadores .pie-de-pagina {
-    display: flex;
-    justify-content: center;
-    background-color: #5c415d;
-    height: 50px; }
-    .footer-entrenadores .pie-de-pagina p {
-      display: flex;
-      align-items: center;
-      height: 50px; }
-
-@media (max-width: 780px) {
-  .footer-entrenadores {
-    margin-top: 150px; } }
-
-@media (max-width: 750px) {
-  .footer-entrenadores {
-    margin-top: 250px; } }

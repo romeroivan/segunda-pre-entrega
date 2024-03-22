@@ -31,13 +31,10 @@
                     width: 100%;
                     height: 150px;
                     border-radius: 7px;
-                    transition: transform 0.3s ease-in-out;
-
-                    &:hover {
-                        transform: scale(1.1);
-                    }
+                    animation: heartbeat 1s infinite;
                 }
             }
+
 
             .entrenamiento-boxeo {
                 margin: 5px;
@@ -50,11 +47,8 @@
                     width: 100%;
                     height: 150px;
                     border-radius: 7px;
-                    transition: transform 0.3s ease-in-out;
+                    animation: heartbeat 1s infinite;
 
-                    &:hover {
-                        transform: scale(1.1);
-                    }
                 }
             }
 
@@ -69,11 +63,8 @@
                     width: 100%;
                     height: 150px;
                     border-radius: 7px;
-                    transition: transform 0.3s ease-in-out;
+                    animation: heartbeat 1s infinite;
 
-                    &:hover {
-                        transform: scale(1.1);
-                    }
                 }
             }
 
@@ -88,15 +79,25 @@
                     width: 100%;
                     height: 150px;
                     border-radius: 7px;
-                    transition: transform 0.3s ease-in-out;
-
-                    &:hover {
-                        transform: scale(1.1);
-                    }
+                    animation: heartbeat 1s infinite;
                 }
             }
         }
 
+    }
+
+    @keyframes heartbeat {
+        0% {
+            transform: scale(1);
+        }
+
+        50% {
+            transform: scale(1.1);
+        }
+
+        100% {
+            transform: scale(1);
+        }
     }
 
     .index-entrenadores {
@@ -152,11 +153,12 @@
 
             .entrenadores-imagenes {
                 width: 100%;
+                background-color: $gris;
+                border-radius: 7px;
 
                 img {
                     width: 100%;
                     height: 250px;
-                    border-radius: 7px;
                     transition: transform 0.3s ease-in-out;
 
                     &:hover {
@@ -173,11 +175,12 @@
 
             .entrenadores-imagenes {
                 width: 100%;
+                background-color: $gris;
+                border-radius: 7px;
 
                 img {
                     width: 100%;
                     height: 250px;
-                    border-radius: 7px;
                     transition: transform 0.3s ease-in-out;
 
                     &:hover {
@@ -193,12 +196,15 @@
             align-items: center;
 
             .entrenadores-imagenes {
+                display: flex;
+                justify-content: center;
                 width: 100%;
+                background-color: $gris;
+                border-radius: 7px;
 
                 img {
-                    width: 100%;
+                    width: 50%;
                     height: 250px;
-                    border-radius: 7px;
                     transition: transform 0.3s ease-in-out;
 
                     &:hover {
@@ -215,11 +221,14 @@
 
             .entrenadores-imagenes {
                 width: 100%;
+                background-color: $gris;
+                display: flex;
+                justify-content: center;
+                border-radius: 7px;
 
                 img {
-                    width: 100%;
+                    width: 50%;
                     height: 250px;
-                    border-radius: 7px;
                     transition: transform 0.3s ease-in-out;
 
                     &:hover {
@@ -236,11 +245,12 @@
 
             .entrenadores-imagenes {
                 width: 100%;
+                background-color: $gris;
+                border-radius: 7px;
 
                 img {
                     width: 100%;
                     height: 250px;
-                    border-radius: 7px;
                     transition: transform 0.3s ease-in-out;
 
                     &:hover {
@@ -257,11 +267,12 @@
 
             .entrenadores-imagenes {
                 width: 100%;
+                background-color: $gris;
+                border-radius: 7px;
 
                 img {
                     width: 100%;
                     height: 250px;
-                    border-radius: 7px;
                     transition: transform 0.3s ease-in-out;
 
                     &:hover {
@@ -361,7 +372,7 @@
 @media (max-width: 560px) {
     .carrusel {
         img {
-            height: 40rem;
+            height: 20rem;
         }
     }
 
@@ -460,6 +471,72 @@
             }
         }
 
+        .index-entrenadores {
+            .index-entrenadores1 {
+
+                .entrenadores-imagenes {
+
+                    img {
+                        width: 100%;
+                        height: 150px;
+                    }
+                }
+            }
+            .index-entrenadores2 {
+
+                .entrenadores-imagenes {
+
+                    img {
+                        width: 100%;
+                        height: 150px;
+                    }
+                }
+            }
+            .index-entrenadores3 {
+
+                .entrenadores-imagenes {
+
+                    img {
+                        width: 100%;
+                        height: 150px;
+                    }
+                }
+            }
+            .index-entrenadores4 {
+
+                .entrenadores-imagenes {
+
+                    img {
+                        width: 100%;
+                        height: 150px;
+                    }
+                }
+            }
+            .index-entrenadores5 {
+
+                .entrenadores-imagenes {
+
+                    img {
+                        width: 100%;
+                        height: 150px;
+                    }
+                }
+            }
+            .index-entrenadores6 {
+
+                .entrenadores-imagenes {
+
+                    img {
+                        width: 100%;
+                        height: 150px;
+                    }
+                }
+            }
+
+        }
+
+
+
         .img-precios-index {
 
             article {
@@ -467,6 +544,7 @@
                 img {
                     width: 100%;
                     height: 270px;
+
                 }
             }
 
